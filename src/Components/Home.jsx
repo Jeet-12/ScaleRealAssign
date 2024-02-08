@@ -71,7 +71,9 @@ const Home = () => {
                         <p>Directed By: {selectedItem.director}</p>
                     </div>
                 ):(
-                    <p style={{display:"flex",justifyContent:"center",marginTop:"15rem",fontSize:"18px"}}>No Movie Selected</p>
+                    <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+                    <p style={{fontSize:"18px"}}>No Movie Selected</p>
+                    </div>
                 )}
             </div>
 </div>
